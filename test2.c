@@ -9,6 +9,7 @@ int kis(int a){
 
 int main(void){
     int a=245845,n;
+    printf("%d\n",a);
     while(1){
         if(a%2==1)a=kis(a);
         if(a%2==0)a=even(a);
