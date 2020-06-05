@@ -12,7 +12,7 @@ int main(void){
     printf("%d\n",a);
     while(1){
         if(a%2==1)a=kis(a);
-        if(a%2==0)a=even(a);
+        else a=even(a);
         printf("%d\n",a);
         if(a==1)break;
     }
