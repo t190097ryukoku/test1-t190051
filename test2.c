@@ -8,7 +8,7 @@ int kis(int a){
 }
 
 int main(void){
-    int a=245845,n;
+    int a=428428,n;
     printf("%d\n",a);
     while(1){
         if(a%2==1)a=kis(a);
