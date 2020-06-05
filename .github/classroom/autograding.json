@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "コンパイル",
+      "setup": "",
+      "run": "make all",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "test1の実行結果",
+      "setup": "",
+      "run": "./test1",
+      "input": "",
+      "output": "1\r\n4\r\n27\r\n256\r\n3125\r\n46656\r\n823543\r\n16777216\r\n387420489",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "test2の実行結果",
+      "setup": "",
+      "run": "./test2",
+      "input": "",
+      "output": "8\r\n4\r\n2\r\n1",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
